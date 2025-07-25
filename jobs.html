@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board | Jobs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">JobBoard</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#" id="login-link">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="search-bar">
+      <input type="text" id="search-title" placeholder="Search by title">
+      <input type="text" id="search-location" placeholder="Location">
+      <select id="search-type">
+        <option value="">All Types</option>
+        <option value="Full-Time">Full-Time</option>
+        <option value="Part-Time">Part-Time</option>
+        <option value="Internship">Internship</option>
+        <option value="Remote">Remote</option>
+      </select>
+      <button id="search-btn">Search</button>
+    </section>
+    <section class="job-listings">
+      <h2>Job Listings</h2>
+      <div id="jobs-list"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      &copy; 2025 JobBoard. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html> 

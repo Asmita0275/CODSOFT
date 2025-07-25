@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">JobBoard</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#" id="login-link">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="dashboard-tabs">
+      <button id="employer-tab" class="active">Employer</button>
+      <button id="candidate-tab">Candidate</button>
+    </section>
+    <section class="dashboard-content" id="employer-dashboard">
+      <h2>Employer Dashboard</h2>
+      <form id="add-job-form">
+        <input type="text" id="job-title" placeholder="Job Title" required>
+        <input type="text" id="job-company" placeholder="Company" required>
+        <input type="text" id="job-location" placeholder="Location" required>
+        <select id="job-type" required>
+          <option value="">Select Type</option>
+          <option value="Full-Time">Full-Time</option>
+          <option value="Part-Time">Part-Time</option>
+          <option value="Internship">Internship</option>
+          <option value="Remote">Remote</option>
+        </select>
+        <textarea id="job-description" placeholder="Job Description" required></textarea>
+        <textarea id="job-qualifications" placeholder="Qualifications" required></textarea>
+        <input type="text" id="job-how-to-apply" placeholder="How to Apply" required>
+        <button type="submit">Add Job</button>
+      </form>
+      <h3>Posted Jobs</h3>
+      <div id="posted-jobs-list"></div>
+    </section>
+    <section class="dashboard-content" id="candidate-dashboard" style="display:none;">
+      <h2>Candidate Dashboard</h2>
+      <h3>Jobs Applied</h3>
+      <div id="applied-jobs-list"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      &copy; 2025 JobBoard. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html> 

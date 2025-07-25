@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechNova",
+    "location": "Bangalore, India",
+    "type": "Full-Time",
+    "description": "Develop and maintain web applications using React.js and modern JavaScript.",
+    "qualifications": "BSc in Computer Science or related. 1+ year experience in frontend development.",
+    "howToApply": "Send your resume to hr@technova.com"
+  },
+  {
+    "id": 2,
+    "title": "Backend Engineer",
+    "company": "Cloudify",
+    "location": "Remote",
+    "type": "Remote",
+    "description": "Design and build scalable backend APIs using Node.js and Express.",
+    "qualifications": "BTech/BE in IT. 2+ years experience with Node.js.",
+    "howToApply": "Apply online at cloudify.com/careers"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "company": "PixelWorks",
+    "location": "Mumbai, India",
+    "type": "Part-Time",
+    "description": "Create user-centered designs and wireframes for web/mobile apps.",
+    "qualifications": "Diploma in Design. Portfolio required.",
+    "howToApply": "Email your portfolio to jobs@pixelworks.com"
+  },
+  {
+    "id": 4,
+    "title": "Software Intern",
+    "company": "InnoSoft",
+    "location": "Pune, India",
+    "type": "Internship",
+    "description": "Assist in software development and testing. Great learning opportunity!",
+    "qualifications": "Final year student in CS/IT. Basic programming knowledge.",
+    "howToApply": "Submit your details at innosoft.com/interns"
+  }
+] 

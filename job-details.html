@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board | Job Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">JobBoard</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#" id="login-link">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="job-detail" id="job-detail-section">
+      <!-- Job details will be rendered here -->
+    </section>
+    <section class="application-form" id="application-form-section" style="display:none;">
+      <h2>Apply for this Job</h2>
+      <form id="apply-form">
+        <input type="text" id="applicant-name" placeholder="Your Name" required>
+        <input type="email" id="applicant-email" placeholder="Your Email" required>
+        <input type="file" id="applicant-resume" accept=".pdf,.doc,.docx">
+        <button type="submit">Submit Application</button>
+      </form>
+      <div id="application-success" style="display:none;">Application submitted!</div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      &copy; 2024 JobBoard. All rights reserved.
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html> 
